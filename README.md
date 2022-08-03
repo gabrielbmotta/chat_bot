@@ -12,3 +12,9 @@ As an example, if we wanted to send a message to someone with JID 1234567890@s.w
 destJID, _ := parseJID("1234567890@s.whatsapp.net")
 sendMessage(destJID, "Hello!")
 ```
+
+## Building
+
+You'll need all of the Go language packages installed. That can be done from your package manager of choice on Linux/Mac, and from [the Go website](https://go.dev/doc/install) on all systems.
+
+Navigate to the direcotry containing the project files and run `go build`. 
